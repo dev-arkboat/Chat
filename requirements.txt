@@ -1,2 +1,4 @@
-Flask>=3.0.0,<4
-Werkzeug>=3.0.0,<4
+flask
+werkzeug
+python-dotenv
+gunicorn
