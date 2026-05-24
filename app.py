@@ -31,7 +31,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 # Config
 # ---------------------------------------------------------------------------
 BASE_DIR = Path(__file__).resolve().parent
-DB_PATH = BASE_DIR / "database.db"
+DB_PATH = BASE_DIR / "messages.db"
 
 app = Flask(__name__)
 app.config.update(
@@ -45,10 +45,10 @@ app.config.update(
 
 PRECONFIGURED_USERS = (
     ("salehin", "MD ABU SALEHIN", "#e8a87c", "Salehin07"),
-    ("talha", "Talha", "#85dcb8", "Talha07"),
-    ("talhagf", "Talha`s GF", "#a8d8ea", "Talha_GF07"),
-    ("someone", "Someone", "#c38d9e", "Someone07"),
-    ("eden", "Eden Brooks", "#e27d60", "eden07"),
+    ("someone", "Someone", "#85dcb8", "Someone07"),
+    ("tanjiro", "T. Tanjiro", "#a8d8ea", "Tanjiro07"),
+    ("fahim", "Fahim", "#c38d9e", "Fahim07"),
+    ("adif", "Adif", "#e27d60", "Adif07"),
 )
 
 ONLINE_WINDOW_SECONDS = 45
